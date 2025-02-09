@@ -1,0 +1,120 @@
+2025-01-27 20:59:38 MIL libsnapper(4497) snapperd.cc(main):283 - Requesting DBus name
+2025-01-27 20:59:38 MIL libsnapper(4497) snapperd.cc(main):298 - Loading snapper configs
+2025-01-27 20:59:38 MIL libsnapper(4497) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-01-27 20:59:38 MIL libsnapper(4497) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-01-27 20:59:38 MIL libsnapper(4497) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-01-27 20:59:38 MIL libsnapper(4497) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-01-27 20:59:38 MIL libsnapper(4497) snapperd.cc(main):311 - Listening for method calls and signals
+2025-01-27 21:00:38 MIL libsnapper(4497) snapperd.cc(main):315 - Exiting
+2025-01-28 07:05:53 MIL libsnapper(3672) snapperd.cc(main):283 - Requesting DBus name
+2025-01-28 07:05:53 MIL libsnapper(3672) snapperd.cc(main):298 - Loading snapper configs
+2025-01-28 07:05:53 MIL libsnapper(3672) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-01-28 07:05:53 MIL libsnapper(3672) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-01-28 07:05:53 MIL libsnapper(3672) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-01-28 07:05:53 MIL libsnapper(3672) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-01-28 07:05:53 MIL libsnapper(3672) snapperd.cc(main):311 - Listening for method calls and signals
+2025-01-28 07:06:53 MIL libsnapper(3672) snapperd.cc(main):315 - Exiting
+2025-01-28 13:54:04 MIL libsnapper(17324) snapperd.cc(main):283 - Requesting DBus name
+2025-01-28 13:54:04 MIL libsnapper(17324) snapperd.cc(main):298 - Loading snapper configs
+2025-01-28 13:54:04 MIL libsnapper(17324) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-01-28 13:54:04 MIL libsnapper(17324) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-01-28 13:54:04 MIL libsnapper(17324) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-01-28 13:54:04 MIL libsnapper(17324) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-01-28 13:54:04 MIL libsnapper(17324) snapperd.cc(main):311 - Listening for method calls and signals
+2025-01-28 13:55:04 MIL libsnapper(17324) snapperd.cc(main):315 - Exiting
+2025-01-31 21:30:40 MIL libsnapper(2779) snapperd.cc(main):283 - Requesting DBus name
+2025-01-31 21:30:40 MIL libsnapper(2779) snapperd.cc(main):298 - Loading snapper configs
+2025-01-31 21:30:40 MIL libsnapper(2779) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-01-31 21:30:40 MIL libsnapper(2779) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-01-31 21:30:40 MIL libsnapper(2779) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-01-31 21:30:40 MIL libsnapper(2779) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-01-31 21:30:40 MIL libsnapper(2779) snapperd.cc(main):311 - Listening for method calls and signals
+2025-01-31 21:31:40 MIL libsnapper(2779) snapperd.cc(main):315 - Exiting
+2025-02-03 11:07:43 MIL libsnapper(28630) snapperd.cc(main):283 - Requesting DBus name
+2025-02-03 11:07:43 MIL libsnapper(28630) snapperd.cc(main):298 - Loading snapper configs
+2025-02-03 11:07:43 MIL libsnapper(28630) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-03 11:07:43 MIL libsnapper(28630) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-03 11:07:43 MIL libsnapper(28630) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-03 11:07:43 MIL libsnapper(28630) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-03 11:07:43 MIL libsnapper(28630) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-03 11:08:43 MIL libsnapper(28630) snapperd.cc(main):315 - Exiting
+2025-02-03 20:56:23 MIL libsnapper(23044) snapperd.cc(main):283 - Requesting DBus name
+2025-02-03 20:56:23 MIL libsnapper(23044) snapperd.cc(main):298 - Loading snapper configs
+2025-02-03 20:56:23 MIL libsnapper(23044) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-03 20:56:23 MIL libsnapper(23044) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-03 20:56:23 MIL libsnapper(23044) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-03 20:56:23 MIL libsnapper(23044) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-03 20:56:23 MIL libsnapper(23044) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-03 20:57:23 MIL libsnapper(23044) snapperd.cc(main):315 - Exiting
+2025-02-06 13:58:23 MIL libsnapper(11495) snapperd.cc(main):283 - Requesting DBus name
+2025-02-06 13:58:23 MIL libsnapper(11495) snapperd.cc(main):298 - Loading snapper configs
+2025-02-06 13:58:23 MIL libsnapper(11495) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-06 13:58:23 MIL libsnapper(11495) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-06 13:58:23 MIL libsnapper(11495) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-06 13:58:23 MIL libsnapper(11495) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-06 13:58:23 MIL libsnapper(11495) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-06 13:59:24 MIL libsnapper(11495) snapperd.cc(main):315 - Exiting
+2025-02-06 14:08:19 MIL libsnapper(123740) snapperd.cc(main):283 - Requesting DBus name
+2025-02-06 14:08:19 MIL libsnapper(123740) snapperd.cc(main):298 - Loading snapper configs
+2025-02-06 14:08:19 MIL libsnapper(123740) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-06 14:08:19 MIL libsnapper(123740) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-06 14:08:19 MIL libsnapper(123740) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-06 14:08:19 MIL libsnapper(123740) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-06 14:08:19 MIL libsnapper(123740) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-06 14:09:19 MIL libsnapper(123740) snapperd.cc(main):315 - Exiting
+2025-02-06 15:15:40 MIL libsnapper(65376) snapperd.cc(main):283 - Requesting DBus name
+2025-02-06 15:15:40 MIL libsnapper(65376) snapperd.cc(main):298 - Loading snapper configs
+2025-02-06 15:15:40 MIL libsnapper(65376) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-06 15:15:40 MIL libsnapper(65376) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-06 15:15:40 MIL libsnapper(65376) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-06 15:15:40 MIL libsnapper(65376) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-06 15:15:40 MIL libsnapper(65376) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-06 15:16:40 MIL libsnapper(65376) snapperd.cc(main):315 - Exiting
+2025-02-06 15:20:54 MIL libsnapper(159264) snapperd.cc(main):283 - Requesting DBus name
+2025-02-06 15:20:54 MIL libsnapper(159264) snapperd.cc(main):298 - Loading snapper configs
+2025-02-06 15:20:54 MIL libsnapper(159264) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-06 15:20:54 MIL libsnapper(159264) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-06 15:20:54 MIL libsnapper(159264) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-06 15:20:54 MIL libsnapper(159264) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-06 15:20:54 MIL libsnapper(159264) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-06 15:21:54 MIL libsnapper(159264) snapperd.cc(main):315 - Exiting
+2025-02-07 21:52:57 MIL libsnapper(5432) snapperd.cc(main):283 - Requesting DBus name
+2025-02-07 21:52:57 MIL libsnapper(5432) snapperd.cc(main):298 - Loading snapper configs
+2025-02-07 21:52:57 MIL libsnapper(5432) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-07 21:52:57 MIL libsnapper(5432) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-07 21:52:57 MIL libsnapper(5432) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-07 21:52:57 MIL libsnapper(5432) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-07 21:52:57 MIL libsnapper(5432) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-07 21:53:57 MIL libsnapper(5432) snapperd.cc(main):315 - Exiting
+2025-02-07 22:06:57 MIL libsnapper(146926) snapperd.cc(main):283 - Requesting DBus name
+2025-02-07 22:06:57 MIL libsnapper(146926) snapperd.cc(main):298 - Loading snapper configs
+2025-02-07 22:06:57 MIL libsnapper(146926) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-07 22:06:57 MIL libsnapper(146926) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-07 22:06:57 MIL libsnapper(146926) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-07 22:06:57 MIL libsnapper(146926) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-07 22:06:57 MIL libsnapper(146926) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-07 22:07:57 MIL libsnapper(146926) snapperd.cc(main):315 - Exiting
+2025-02-07 22:21:20 MIL libsnapper(3031) snapperd.cc(main):283 - Requesting DBus name
+2025-02-07 22:21:20 MIL libsnapper(3031) snapperd.cc(main):298 - Loading snapper configs
+2025-02-07 22:21:20 MIL libsnapper(3031) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-07 22:21:20 MIL libsnapper(3031) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-07 22:21:20 MIL libsnapper(3031) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-07 22:21:20 MIL libsnapper(3031) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-07 22:21:20 MIL libsnapper(3031) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-07 22:22:21 MIL libsnapper(3031) snapperd.cc(main):315 - Exiting
+2025-02-07 23:54:48 MIL libsnapper(21791) snapperd.cc(main):283 - Requesting DBus name
+2025-02-07 23:54:48 MIL libsnapper(21791) snapperd.cc(main):298 - Loading snapper configs
+2025-02-07 23:54:48 MIL libsnapper(21791) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-07 23:54:48 MIL libsnapper(21791) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-07 23:54:48 MIL libsnapper(21791) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-07 23:54:48 MIL libsnapper(21791) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-07 23:54:48 MIL libsnapper(21791) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-07 23:55:48 MIL libsnapper(21791) snapperd.cc(main):315 - Exiting
+2025-02-09 12:03:58 MIL libsnapper(36946) snapperd.cc(main):283 - Requesting DBus name
+2025-02-09 12:03:58 MIL libsnapper(36946) snapperd.cc(main):298 - Loading snapper configs
+2025-02-09 12:03:58 MIL libsnapper(36946) Snapper.cc(getConfigs):355 - Snapper get-configs
+2025-02-09 12:03:58 MIL libsnapper(36946) Snapper.cc(getConfigs):356 - libsnapper version 0.12.1
+2025-02-09 12:03:58 MIL libsnapper(36946) AsciiFile.cc(reload):920 - loading file /etc/conf.d/snapper
+2025-02-09 12:03:58 MIL libsnapper(36946) AsciiFile.cc(get_value):1076 - key:SNAPPER_CONFIGS value:
+2025-02-09 12:03:58 MIL libsnapper(36946) snapperd.cc(main):311 - Listening for method calls and signals
+2025-02-09 12:04:58 MIL libsnapper(36946) snapperd.cc(main):315 - Exiting

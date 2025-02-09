@@ -1,0 +1,11 @@
+<component type="firmware">
+<provides>
+<firmware type="flashed">dc7f0308-1ef8-4774-9ba5-89a58c4d731c</firmware>
+</provides>
+<releases>
+<release version="0.1.53">
+<checksum type="sha1" target="content">47c1e889712282937eaf68fab0ceb57dddc80535</checksum>
+<checksum type="sha256" target="content">c7e43b7a6167691ae437e89cc4302601d0e2b8c5704c4ce2c05fc83384204b74</checksum>
+</release>
+</releases>
+</component>

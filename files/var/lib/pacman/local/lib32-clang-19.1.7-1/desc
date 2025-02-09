@@ -1,0 +1,46 @@
+%NAME%
+lib32-clang
+
+%VERSION%
+19.1.7-1
+
+%BASE%
+lib32-clang
+
+%DESC%
+C language family frontend for LLVM (32-bit)
+
+%URL%
+https://clang.llvm.org/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1737208781
+
+%INSTALLDATE%
+1738000014
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%SIZE%
+143038236
+
+%REASON%
+1
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+lib32-llvm-libs
+gcc-multilib
+
+%XDATA%
+pkgtype=pkg
+

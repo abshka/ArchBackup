@@ -1,0 +1,52 @@
+%NAME%
+nekoray
+
+%VERSION%
+4.0.1-2
+
+%BASE%
+nekoray
+
+%DESC%
+Qt based cross-platform GUI proxy configuration manager (backend: sing-box)
+
+%URL%
+https://matsuridayo.github.io
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1738046210
+
+%INSTALLDATE%
+1738046769
+
+%PACKAGER%
+Unknown Packager
+
+%SIZE%
+33462512
+
+%LICENSE%
+GPL-3.0-or-later
+
+%VALIDATION%
+none
+
+%DEPENDS%
+qt6-base
+qt6-svg
+qt6-tools
+protobuf
+yaml-cpp
+zxing-cpp
+abseil-cpp
+
+%OPTDEPENDS%
+sing-geoip: geoip data for NekoBox
+sing-geosite: geosite data for NekoBox
+
+%XDATA%
+pkgtype=pkg
+

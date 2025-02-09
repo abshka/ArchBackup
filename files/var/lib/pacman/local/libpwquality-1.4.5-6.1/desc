@@ -1,0 +1,50 @@
+%NAME%
+libpwquality
+
+%VERSION%
+1.4.5-6.1
+
+%BASE%
+libpwquality
+
+%DESC%
+Library for password quality checking and generating random passwords
+
+%URL%
+https://github.com/libpwquality/libpwquality
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1734953822
+
+%INSTALLDATE%
+1738000123
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+446519
+
+%REASON%
+1
+
+%LICENSE%
+BSD-3-Clause OR GPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+cracklib
+glibc
+pam
+
+%OPTDEPENDS%
+python: Python bindings
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,16 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a device; this may
+# be used with UUID= as a more robust way to name devices that works even if
+# disks are added and removed. See fstab(5).
+#
+# <file system>             <mount point>  <type>  <options>  <dump>  <pass>
+UUID=DB19-8445                             /boot/efi      vfat    defaults,umask=0077 0 2
+UUID=341b80e1-6ddb-4ab9-9f75-815f1b2f42e7  /              btrfs   defaults,noatime,compress=zstd:3,commit=300,ssd_spread,rw,max_inline=256 0 0
+#UUID=807eb231-39bd-49aa-8363-d3eda2fea1fe /home          btrfs   defaults,noatime,compress=zstd:3,commit=300,ssd_spread,rw,max_inline=256 0 0
+#UUID=807eb231-39bd-49aa-8363-d3eda2fea1fe /root          btrfs   defaults,noatime,compress=zstd:3,commit=300,ssd_spread,rw,max_inline=256 0 0
+#UUID=807eb231-39bd-49aa-8363-d3eda2fea1fe /srv           btrfs   defaults,noatime,compress=zstd:3,commit=300,ssd_spread,rw,max_inline=256 0 0
+#UUID=807eb231-39bd-49aa-8363-d3eda2fea1fe /var/cache     btrfs   defaults,noatime,compress=zstd:3,commit=300,ssd_spread,rw,max_inline=256 0 0
+#UUID=807eb231-39bd-49aa-8363-d3eda2fea1fe /var/tmp       btrfs   defaults,noatime,compress=zstd:3,commit=300,ssd_spread,rw,max_inline=256 0 0
+#UUID=807eb231-39bd-49aa-8363-d3eda2fea1fe /var/log       btrfs   defaults,noatime,compress=zstd:3,commit=300,ssd_spread,rw,max_inline=256 0 0
+tmpfs                                      /tmp           tmpfs   defaults,noatime,mode=1777 0 0

@@ -1,0 +1,51 @@
+%NAME%
+zsh-theme-powerlevel10k
+
+%VERSION%
+1.20.0-4
+
+%BASE%
+zsh-theme-powerlevel10k
+
+%DESC%
+Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
+
+%URL%
+https://github.com/romkatv/powerlevel10k
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1726393877
+
+%INSTALLDATE%
+1738216801
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+3479563
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+zsh
+
+%OPTDEPENDS%
+ttf-meslo-nerd-font-powerlevel10k: recommended font
+powerline-fonts: patched fonts for powerline
+ttf-font-nerd: full choice of style options
+
+%XDATA%
+pkgtype=pkg
+

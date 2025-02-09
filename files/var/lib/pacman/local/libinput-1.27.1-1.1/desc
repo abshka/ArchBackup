@@ -1,0 +1,58 @@
+%NAME%
+libinput
+
+%VERSION%
+1.27.1-1.1
+
+%BASE%
+libinput
+
+%DESC%
+Input device management and event handling library
+
+%URL%
+https://gitlab.freedesktop.org/libinput/libinput
+
+%ARCH%
+x86_64_v3
+
+%INSTALLED_DB%
+cachyos-extra-v3
+
+%BUILDDATE%
+1736151628
+
+%INSTALLDATE%
+1738000054
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+1235189
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+mtdev
+libevdev
+libwacom
+systemd-libs
+glibc
+
+%OPTDEPENDS%
+gtk4: libinput debug-gui
+python-pyudev: libinput measure
+python-libevdev: libinput measure
+python-yaml: used by various tools
+
+%XDATA%
+pkgtype=pkg
+

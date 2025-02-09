@@ -1,0 +1,57 @@
+%NAME%
+cachyos-settings
+
+%VERSION%
+1:1.1.9-1
+
+%BASE%
+cachyos-settings
+
+%DESC%
+CachyOS - Settings
+
+%URL%
+
+
+%ARCH%
+any
+
+%INSTALLED_DB%
+cachyos
+
+%BUILDDATE%
+1738869418
+
+%INSTALLDATE%
+1738874094
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+35184
+
+%GROUPS%
+cachyos
+
+%LICENSE%
+GPL-1.0-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+zram-generator
+ananicy-cpp
+cachyos-ananicy-rules
+inxi
+systemd>=256
+
+%OPTDEPENDS%
+libluv: for topmem
+lua-luv: for topmem
+power-profiles-daemon: For game-performance
+
+%XDATA%
+pkgtype=pkg
+

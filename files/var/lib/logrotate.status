@@ -1,0 +1,5 @@
+logrotate state -- version 2
+"/var/log/postgresql.log" 2025-2-3-9:0:0
+"/var/log/wtmp" 2025-1-28-7:0:0
+"/var/log/snapper.log" 2025-1-28-7:0:0
+"/var/log/btmp" 2025-2-3-9:24:46

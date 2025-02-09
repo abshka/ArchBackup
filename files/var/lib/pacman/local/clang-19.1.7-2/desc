@@ -1,0 +1,67 @@
+%NAME%
+clang
+
+%VERSION%
+19.1.7-2
+
+%BASE%
+clang
+
+%DESC%
+C language family frontend for LLVM
+
+%URL%
+https://clang.llvm.org/
+
+%ARCH%
+x86_64_v3
+
+%INSTALLED_DB%
+cachyos-v3
+
+%BUILDDATE%
+1737240718
+
+%INSTALLDATE%
+1738062623
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+204559221
+
+%REASON%
+1
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+clang-analyzer
+clang-tools-extra
+
+%DEPENDS%
+llvm-libs
+gcc
+compiler-rt
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm: referenced by some clang headers
+
+%CONFLICTS%
+clang-analyzer
+clang-tools-extra
+
+%PROVIDES%
+clang-analyzer=19.1.7
+clang-tools-extra=19.1.7
+
+%XDATA%
+pkgtype=pkg
+

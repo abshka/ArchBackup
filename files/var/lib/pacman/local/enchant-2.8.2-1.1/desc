@@ -1,0 +1,58 @@
+%NAME%
+enchant
+
+%VERSION%
+2.8.2-1.1
+
+%BASE%
+enchant
+
+%DESC%
+A wrapper library for generic spell checking
+
+%URL%
+https://rrthomas.github.io/enchant/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1726207484
+
+%INSTALLDATE%
+1738000119
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+265074
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%VALIDATION%
+sha256
+pgp
+
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+
+%OPTDEPENDS%
+aspell: for aspell based spell checking support
+hspell: for hspell based spell checking support
+hunspell: for hunspell based spell checking support
+libvoikko: for libvoikko based spell checking support
+nuspell: for nuspell based spell checking support
+
+%PROVIDES%
+libenchant-2.so=2-64
+
+%XDATA%
+pkgtype=pkg
+

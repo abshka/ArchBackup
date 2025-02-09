@@ -1,0 +1,57 @@
+%NAME%
+libpeas
+
+%VERSION%
+1.36.0-6.1
+
+%BASE%
+libpeas
+
+%DESC%
+GObject Plugin System
+
+%URL%
+https://wiki.gnome.org/Projects/Libpeas
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1734943780
+
+%INSTALLDATE%
+1738079295
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+677206
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glib2
+glibc
+gtk3
+hicolor-icon-theme
+libgirepository
+
+%OPTDEPENDS%
+lua51-lgi: Lua loader
+python-gobject: Python loader
+
+%PROVIDES%
+libpeas-1.0.so=0-64
+libpeas-gtk-1.0.so=0-64
+
+%XDATA%
+pkgtype=split
+

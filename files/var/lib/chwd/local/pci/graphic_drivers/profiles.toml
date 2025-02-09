@@ -1,0 +1,20 @@
+[intel]
+ai_sdk = false
+class_ids = "0300 0302"
+desc = "Mesa open source driver for Intel"
+device_ids = "*"
+packages = "mesa lib32-mesa libva-intel-driver lib32-libva-intel-driver vulkan-intel lib32-vulkan-intel intel-media-driver"
+post_install = '''
+if [ -z "$(lspci -d "10de:*:030x")" ]; then
+    # Force the use of Rusticl, otherwise it will be just a stub
+    echo "export RUSTICL_ENABLE=iris" > /etc/profile.d/opencl.sh
+    mkdir -p /etc/environment.d
+    echo "RUSTICL_ENABLE=iris" > /etc/environment.d/30-opencl.conf
+fi
+'''
+post_remove = """
+rm -f /etc/profile.d/opencl.sh
+rm -f /etc/environment.d/30-opencl.conf
+"""
+priority = 4
+vendor_ids = "8086"

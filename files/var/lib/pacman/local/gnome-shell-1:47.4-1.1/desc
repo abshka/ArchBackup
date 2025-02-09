@@ -1,0 +1,103 @@
+%NAME%
+gnome-shell
+
+%VERSION%
+1:47.4-1.1
+
+%BASE%
+gnome-shell
+
+%DESC%
+Next generation desktop shell
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-shell
+
+%ARCH%
+x86_64_v3
+
+%INSTALLED_DB%
+cachyos-extra-v3
+
+%BUILDDATE%
+1738775107
+
+%INSTALLDATE%
+1738777159
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+14311354
+
+%GROUPS%
+gnome
+
+%LICENSE%
+GPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+accountsservice
+at-spi2-core
+bash
+cairo
+dconf
+gcc-libs
+gcr-4
+gdk-pixbuf2
+gjs
+glib2
+glibc
+gnome-autoar
+gnome-desktop-4
+gnome-session
+gnome-settings-daemon
+graphene
+gsettings-desktop-schemas
+gtk4
+hicolor-icon-theme
+json-glib
+libadwaita
+libcanberra-pulse
+libgdm
+libgirepository
+libglvnd
+libgweather-4
+libibus
+libical
+libnm
+libnma-gtk4
+libpipewire
+libpulse
+libsecret
+libsoup3
+libx11
+libxfixes
+mutter
+pango
+polkit
+systemd-libs
+unzip
+upower
+webkitgtk-6.0
+libmutter-15.so=0-64
+
+%OPTDEPENDS%
+evolution-data-server: Evolution calendar integration
+gnome-bluetooth-3.0: Bluetooth support
+gnome-control-center: System settings
+gnome-disk-utility: Mount with keyfiles
+gst-plugin-pipewire: Screen recording
+gst-plugins-good: Screen recording
+power-profiles-daemon: Power profile switching
+python-gobject: gnome-shell-test-tool performance tester
+python-simplejson: gnome-shell-test-tool performance tester
+switcheroo-control: Multi-GPU support
+
+%XDATA%
+pkgtype=split
+

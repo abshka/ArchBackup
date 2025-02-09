@@ -1,0 +1,77 @@
+%NAME%
+grub
+
+%VERSION%
+2:2.12-3.1
+
+%BASE%
+grub
+
+%DESC%
+GNU GRand Unified Bootloader (2)
+
+%URL%
+https://www.gnu.org/software/grub/
+
+%ARCH%
+x86_64
+
+%INSTALLED_DB%
+cachyos-core-v3
+
+%BUILDDATE%
+1726135112
+
+%INSTALLDATE%
+1738000051
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+35382421
+
+%LICENSE%
+GPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+grub-common
+grub-bios
+grub-emu
+grub-efi-x86_64
+
+%DEPENDS%
+device-mapper
+gettext
+sh
+xz
+
+%OPTDEPENDS%
+dosfstools: For grub-mkrescue FAT FS and EFI support
+efibootmgr: For grub-install EFI support
+freetype2: For grub-mkfont usage
+fuse3: For grub-mount usage
+libisoburn: Provides xorriso for generating grub rescue iso using grub-mkrescue
+lzop: For grub-mkrescue LZO support
+mtools: For grub-mkrescue FAT FS support
+os-prober: To detect other OSes when generating grub.cfg in BIOS systems
+
+%CONFLICTS%
+grub-bios
+grub-common
+grub-efi-x86_64
+grub-emu
+grub-legacy
+
+%PROVIDES%
+grub-bios
+grub-common
+grub-efi-x86_64
+grub-emu
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,49 @@
+%NAME%
+metabase
+
+%VERSION%
+0.52.8-1
+
+%BASE%
+metabase
+
+%DESC%
+The simplest, fastest way to get business intelligence and analytics to everyone in your company
+
+%URL%
+https://www.metabase.com/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1738996661
+
+%INSTALLDATE%
+1738997618
+
+%PACKAGER%
+Unknown Packager
+
+%SIZE%
+429092385
+
+%LICENSE%
+AGPL
+
+%VALIDATION%
+none
+
+%DEPENDS%
+java-runtime-headless
+
+%OPTDEPENDS%
+metabase-driver-clickhouse: connect to clickhouse databases
+metabase-driver-csv: connect to csv files
+metabase-driver-dremio: connect to dremio databases
+metabase-driver-duckdb: connect to duckdb files
+metabase-driver-teradata: connect to teradata databases
+
+%XDATA%
+pkgtype=pkg
+

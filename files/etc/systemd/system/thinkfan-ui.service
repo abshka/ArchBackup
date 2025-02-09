@@ -1,0 +1,13 @@
+[Unit]
+Description=Thinkfan UI Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/thinkfan-ui --no-tray --hide
+Restart=always
+User=ab
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=multi-user.target

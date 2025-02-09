@@ -1,0 +1,56 @@
+%NAME%
+xfsprogs
+
+%VERSION%
+6.12.0-1.1
+
+%BASE%
+xfsprogs
+
+%DESC%
+XFS filesystem utilities
+
+%URL%
+https://xfs.wiki.kernel.org
+
+%ARCH%
+x86_64
+
+%INSTALLED_DB%
+cachyos-core-v3
+
+%BUILDDATE%
+1733560811
+
+%INSTALLDATE%
+1738000060
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+4689725
+
+%LICENSE%
+GPL-2.0-only
+LGPL-2.1-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+device-mapper
+libedit
+libinih
+liburcu
+sh
+util-linux-libs
+
+%OPTDEPENDS%
+icu: for xfs_scrub
+python: for xfs_scrub_all script
+smtp-forwarder: for xfs_scrub_fail script
+
+%XDATA%
+pkgtype=pkg
+

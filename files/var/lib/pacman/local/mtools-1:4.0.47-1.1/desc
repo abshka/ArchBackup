@@ -1,0 +1,50 @@
+%NAME%
+mtools
+
+%VERSION%
+1:4.0.47-1.1
+
+%BASE%
+mtools
+
+%DESC%
+A collection of utilities to access MS-DOS disks
+
+%URL%
+https://www.gnu.org/software/mtools/
+
+%ARCH%
+x86_64_v3
+
+%INSTALLED_DB%
+cachyos-extra-v3
+
+%BUILDDATE%
+1737288669
+
+%INSTALLDATE%
+1738000118
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+428833
+
+%LICENSE%
+GPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+bash
+glibc
+
+%OPTDEPENDS%
+libx11: required by floppyd
+libxau: required by floppyd
+
+%XDATA%
+pkgtype=pkg
+

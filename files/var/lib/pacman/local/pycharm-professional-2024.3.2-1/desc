@@ -1,0 +1,60 @@
+%NAME%
+pycharm-professional
+
+%VERSION%
+2024.3.2-1
+
+%BASE%
+pycharm-professional
+
+%DESC%
+Python IDE for Professional Developers. Professional Edition
+
+%URL%
+https://www.jetbrains.com/pycharm/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1738079026
+
+%INSTALLDATE%
+1738079197
+
+%PACKAGER%
+Unknown Packager
+
+%SIZE%
+3086012881
+
+%LICENSE%
+custom
+
+%VALIDATION%
+none
+
+%DEPENDS%
+giflib
+glibc
+sh
+python
+libdbusmenu-glib
+ttf-font
+fontconfig
+
+%OPTDEPENDS%
+ipython: For enhanced interactive Python shell inside Pycharm
+openssh: For deployment and remote connections
+python-setuptools: Packages manager for Python, for project interpreter
+python-coverage: For support code coverage measurement
+docker-machine: For support docker inside Pycharm
+docker-compose: For support docker inside Pycharm
+vagrant: For support virtualized development environments
+python-pytest: For support testing inside Pycharm
+python-tox: Python environments for testing tool
+jupyter-server: For Jupyter notebooks and apps
+
+%XDATA%
+pkgtype=pkg
+

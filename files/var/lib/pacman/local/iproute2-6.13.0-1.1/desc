@@ -1,0 +1,62 @@
+%NAME%
+iproute2
+
+%VERSION%
+6.13.0-1.1
+
+%BASE%
+iproute2
+
+%DESC%
+IP Routing Utilities
+
+%URL%
+https://git.kernel.org/pub/scm/network/iproute2/iproute2.git
+
+%ARCH%
+x86_64_v3
+
+%INSTALLED_DB%
+cachyos-core-v3
+
+%BUILDDATE%
+1737454740
+
+%INSTALLDATE%
+1738000053
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+3366349
+
+%REASON%
+1
+
+%LICENSE%
+GPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+libxtables.so=12-64
+libcap
+libcap.so=2-64
+libelf
+libbpf
+libbpf.so=1-64
+
+%OPTDEPENDS%
+db5.3: userspace arp daemon
+linux-atm: ATM support
+python: for routel
+
+%PROVIDES%
+iproute
+
+%XDATA%
+pkgtype=pkg
+

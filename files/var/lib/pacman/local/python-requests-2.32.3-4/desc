@@ -1,0 +1,52 @@
+%NAME%
+python-requests
+
+%VERSION%
+2.32.3-4
+
+%BASE%
+python-requests
+
+%DESC%
+Python HTTP for Humans
+
+%URL%
+https://requests.readthedocs.io/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731783588
+
+%INSTALLDATE%
+1738661282
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%SIZE%
+624067
+
+%REASON%
+1
+
+%LICENSE%
+Apache-2.0
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+ca-certificates
+python-charset-normalizer
+python-idna
+python-urllib3
+
+%OPTDEPENDS%
+python-chardet: alternative character encoding library
+python-pysocks: SOCKS proxy support
+
+%XDATA%
+pkgtype=pkg
+

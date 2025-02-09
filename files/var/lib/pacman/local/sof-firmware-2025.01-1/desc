@@ -1,0 +1,42 @@
+%NAME%
+sof-firmware
+
+%VERSION%
+2025.01-1
+
+%BASE%
+sof-bin
+
+%DESC%
+Sound Open Firmware
+
+%URL%
+https://www.sofproject.org/
+
+%ARCH%
+x86_64
+
+%INSTALLED_DB%
+extra
+
+%BUILDDATE%
+1738347934
+
+%INSTALLDATE%
+1738737213
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+35500584
+
+%LICENSE%
+BSD-3-Clause AND ISC
+
+%VALIDATION%
+pgp
+
+%XDATA%
+pkgtype=split
+

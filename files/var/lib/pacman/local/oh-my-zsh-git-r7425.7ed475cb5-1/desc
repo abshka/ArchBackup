@@ -1,0 +1,52 @@
+%NAME%
+oh-my-zsh-git
+
+%VERSION%
+r7425.7ed475cb5-1
+
+%BASE%
+oh-my-zsh-git
+
+%DESC%
+A community-driven framework for managing your zsh configuration. Includes 180+ optional plugins and over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community
+
+%URL%
+https://github.com/ohmyzsh/ohmyzsh
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731502866
+
+%INSTALLDATE%
+1738216801
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+6811064
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+zsh
+
+%OPTDEPENDS%
+ruby: for some plugin functionality
+python: for some plugin functionality
+oh-my-zsh-powerline-theme-git: great theme
+bullet-train-oh-my-zsh-theme-git: better powerline theme
+git: most themes use git (highly recommended but still optional)
+
+%XDATA%
+pkgtype=pkg
+

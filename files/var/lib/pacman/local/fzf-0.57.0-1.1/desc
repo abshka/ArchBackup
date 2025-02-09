@@ -1,0 +1,51 @@
+%NAME%
+fzf
+
+%VERSION%
+0.57.0-1.1
+
+%BASE%
+fzf
+
+%DESC%
+Command-line fuzzy finder
+
+%URL%
+https://github.com/junegunn/fzf
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1734994283
+
+%INSTALLDATE%
+1738216799
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+4356593
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+bash
+
+%OPTDEPENDS%
+fish: fish keybindings
+tmux: fzf-tmux script for launching fzf in a tmux pane
+vim: plugin
+zsh: zsh keybindings
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,53 @@
+%NAME%
+aalib
+
+%VERSION%
+1.4rc5-18
+
+%BASE%
+aalib
+
+%DESC%
+ASCII art graphic library
+
+%URL%
+https://aa-project.sourceforge.net/aalib/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1738063892
+
+%INSTALLDATE%
+1738063913
+
+%PACKAGER%
+Unknown Packager
+
+%SIZE%
+286874
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.0-or-later
+
+%VALIDATION%
+none
+
+%DEPENDS%
+glibc
+gpm
+libx11
+ncurses
+slang
+
+%OPTDEPENDS%
+xorg-fonts-misc: x11 driver
+xorg-mkfontscale: x11 driver
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,61 @@
+%NAME%
+linux-cachyos
+
+%VERSION%
+6.13.2-2
+
+%BASE%
+linux-cachyos
+
+%DESC%
+The Linux BORE + LTO + AutoFDO + Propeller Cachy Sauce Kernel by CachyOS with other patches and improvements. kernel and modules
+
+%URL%
+https://github.com/CachyOS/linux-cachyos
+
+%ARCH%
+x86_64_v3
+
+%INSTALLED_DB%
+cachyos-v3
+
+%BUILDDATE%
+1739036781
+
+%INSTALLDATE%
+1739088622
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+150055457
+
+%LICENSE%
+GPL-2.0-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+wireless-regdb: to set the correct wireless channels of your country
+linux-firmware: firmware images needed for some devices
+modprobed-db: Keeps track of EVERY kernel module that has ever been probed - useful for those of us who make localmodconfig
+scx-scheds: to use sched-ext schedulers
+
+%PROVIDES%
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+KSMBD-MODULE
+UKSMD-BUILTIN
+NTSYNC-MODULE
+VHBA-MODULE
+
+%XDATA%
+pkgtype=split
+

@@ -1,0 +1,54 @@
+%NAME%
+pacman-contrib
+
+%VERSION%
+1.11.0-1.1
+
+%BASE%
+pacman-contrib
+
+%DESC%
+Contributed scripts and tools for pacman systems
+
+%URL%
+https://gitlab.archlinux.org/pacman/pacman-contrib
+
+%ARCH%
+x86_64_v3
+
+%INSTALLED_DB%
+cachyos-extra-v3
+
+%BUILDDATE%
+1738393111
+
+%INSTALLDATE%
+1738398737
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+135306
+
+%LICENSE%
+GPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+pacman
+
+%OPTDEPENDS%
+diffutils: for pacdiff
+fakeroot: for checkupdates
+findutils: for pacdiff --find
+mlocate: for pacdiff --locate
+perl: for pacsearch
+sudo: privilege elevation for several scripts
+vim: default merge program for pacdiff
+
+%XDATA%
+pkgtype=pkg
+

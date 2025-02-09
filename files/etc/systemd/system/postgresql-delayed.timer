@@ -1,0 +1,9 @@
+[Unit]
+Description=Delayed PostgreSQL Service Timer
+
+[Timer]
+OnBootSec=60
+Unit=postgresql-delayed.service
+
+[Install]
+WantedBy=timers.target

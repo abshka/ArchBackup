@@ -1,0 +1,51 @@
+%NAME%
+openmp
+
+%VERSION%
+19.1.7-1.1
+
+%BASE%
+openmp
+
+%DESC%
+LLVM OpenMP Runtime Library
+
+%URL%
+https://openmp.llvm.org/
+
+%ARCH%
+x86_64_v3
+
+%INSTALLED_DB%
+cachyos-extra-v3
+
+%BUILDDATE%
+1737213059
+
+%INSTALLDATE%
+1738062623
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+1926557
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+llvm-libs
+libelf
+libffi
+
+%OPTDEPENDS%
+cuda: offloading to NVIDIA GPUs
+hsa-rocr: offloading to AMD GPUs
+
+%XDATA%
+pkgtype=pkg
+

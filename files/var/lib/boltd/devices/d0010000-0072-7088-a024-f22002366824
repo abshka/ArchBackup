@@ -1,0 +1,10 @@
+[device]
+name=T480
+vendor=Lenovo
+generation=3
+type=host
+
+[user]
+policy=manual
+label=Lenovo T480
+storetime=1738000284

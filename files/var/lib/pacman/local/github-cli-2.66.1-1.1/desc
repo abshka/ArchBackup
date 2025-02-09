@@ -1,0 +1,50 @@
+%NAME%
+github-cli
+
+%VERSION%
+2.66.1-1.1
+
+%BASE%
+github-cli
+
+%DESC%
+The GitHub CLI
+
+%URL%
+https://github.com/cli/cli
+
+%ARCH%
+x86_64_v3
+
+%INSTALLED_DB%
+cachyos-extra-v3
+
+%BUILDDATE%
+1738447499
+
+%INSTALLDATE%
+1738528154
+
+%PACKAGER%
+CachyOS <admin@cachyos.org>
+
+%SIZE%
+43936176
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+mailcap
+
+%OPTDEPENDS%
+git: To interact with repositories
+org.freedesktop.secrets: Store credentials in system keyring
+
+%XDATA%
+pkgtype=pkg
+
